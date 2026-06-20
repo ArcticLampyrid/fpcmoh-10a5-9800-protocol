@@ -56,6 +56,8 @@ device.
 
 ```sh
 pip install pyusb cryptography Pillow
+# Or on Arch Linux:
+# sudo pacman -S python-pyusb python-cryptography python-pillow
 python3 fpcmoh-capture-loop.py --out captures --format png
 ```
 
